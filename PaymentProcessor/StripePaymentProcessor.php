@@ -7,7 +7,7 @@ class StripePaymentProcessor
      */
     public function processPayment(int $price): bool
     {
-        if ($price < 10) {
+        if ($price < 100) {
             return false;
         }
 
