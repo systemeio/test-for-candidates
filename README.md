@@ -8,7 +8,7 @@
 
 ```
 {
-    "product": "1",
+    "product": 1,
     "taxNumber": "DE123456789",
     "couponCode": "D15",
     "paymentProcessor": "paypal"
