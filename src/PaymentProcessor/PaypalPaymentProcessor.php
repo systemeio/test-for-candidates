@@ -1,5 +1,9 @@
 <?php
 
+namespace Systemeio\TestForCandidates\PaymentProcessor;
+
+use Exception;
+
 class PaypalPaymentProcessor
 {
     /**

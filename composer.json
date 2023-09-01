@@ -1,0 +1,13 @@
+{
+    "name": "systemeio/test-for-candidates",
+    "description": "This package can be used as requirement for your test tasks.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Systemeio\\TestForCandidates\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    }
+}
