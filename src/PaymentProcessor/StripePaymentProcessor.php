@@ -7,9 +7,9 @@ class StripePaymentProcessor
     /**
      * @return bool true if payment was succeeded, false otherwise
      */
-    public function processPayment(int $price): bool
+    public function processPayment(float $price): bool
     {
-        if ($price < 100) {
+        if ($price < 1.00) {
             return false;
         }
 
