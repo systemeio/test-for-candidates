@@ -7,6 +7,7 @@ use Exception;
 class PaypalPaymentProcessor
 {
     /**
+     * @param int $price payment amount in smallest currency unit
      * @throws Exception in case of a failed payment
      */
     public function pay(int $price): void
